@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fugaz+One&family=Lobster&family=Monsieur+La+Doulaise&family=Montserrat&family=Orbitron:wght@400;500&family=Pacifico&family=Poppins:wght@500&family=Rubik&family=Varela+Round&display=swap');
+body{
+    text-align: center;
+    background-image: url(bgi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#input-field, #table-div{
+    background-color: rgba(252, 252, 252, 0.252);  
+    backdrop-filter: blur(12px);
+    margin: 20px 150px;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+label, input{
+    margin: 10px 0px;
+}
+
+table{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+.left{
+    text-align: right;
+}
+h1{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 5rem;
+    color:palegreen
+}
+label{
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(61, 19, 100);
+}
+input{
+    width: 200px;
+    height: 25px;
+    backdrop-filter: blur(17px);
+    background-color: rgba(252, 252, 252, 0.252);
+    border-style: none;
+    border-radius: 15px;
+}
+
+#add{
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    backdrop-filter: blur(17px);
+    background-color: rgba(252, 252, 252, 0.252);
+    transition: all 0.3s ease 0s;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(238, 235, 129);
+}
+#add:hover{
+    background-color: rgb(238, 235, 129);
+    color: rgb(61, 19, 100);
+    backdrop-filter: blur(17px);
+    border-radius: 9px;
+}
+#list{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.unit{
+    width: 200px;
+}
+
+th{
+    color: rgb(61, 19, 100); 
+}
+
+tbody{
+    color: rgb(109, 120, 237);
+}
+.del{
+    transition: all 0.3s ease 0s;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    padding: 3px 5px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border-style: none;
+    backdrop-filter: blur(17px);
+    background-color: rgba(252, 252, 252, 0.252);
+    color: rgb(61, 19, 100);
+
+
+}
+.del:hover{
+    background-color: rgb(238, 142, 129);
+    color: rgb(125, 25, 25);
+    backdrop-filter: blur(17px);
+    border-radius: 15px;
+
+}
+#rd{
+    background-color: orange;
+    backdrop-filter: blur(12px);
+    margin: 10px 150px;
+    padding: 10px 0px;
+    border-radius: 15px;
+}
+#reminder{
+    font-family:'Rubik', sans-serif;
+    color: rgb(239, 232, 164);
+}
+#fd{
+    background-color:crimson;
+    backdrop-filter: blur(12px);
+    margin: 10px 150px;
+    padding: 10px 0px;
+    border-radius: 15px;
+}
+#fillout{
+    font-family:'Rubik', sans-serif;
+    color:rgb(91, 24, 24);
+}
+
